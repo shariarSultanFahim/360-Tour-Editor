@@ -1,0 +1,180 @@
+{
+  "default": {
+    "firstScene": "lobby",
+    "author": "Fahim",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "lobby": {
+      "title": "Lobby Room",
+      "hfov": 110,
+      "pitch": -3,
+      "yaw": 117,
+      "type": "equirectangular",
+      "panorama": "/lobby.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0.23105088510458135,
+          "yaw": 160.97631800023254,
+          "type": "scene",
+          "text": "CEO Room",
+          "sceneId": "scene_1760200522024",
+          "div": {}
+        },
+        {
+          "pitch": 0.4965114855632835,
+          "yaw": -10.839773001644517,
+          "type": "scene",
+          "text": "Frontend Room",
+          "sceneId": "scene_1760200235588",
+          "div": {}
+        },
+        {
+          "pitch": -2.7019926105897145,
+          "yaw": 35.55434494136591,
+          "type": "scene",
+          "text": "Backend Room",
+          "sceneId": "scene_1760202158194",
+          "div": {}
+        },
+        {
+          "pitch": -3.749250314094071,
+          "yaw": -36.68822149726668,
+          "type": "scene",
+          "text": "Kitchen",
+          "sceneId": "scene_1760202191626",
+          "div": {}
+        },
+        {
+          "pitch": -1.4637518435544032,
+          "yaw": -157.99846756724924,
+          "type": "scene",
+          "text": "Bathroom",
+          "sceneId": "scene_1760202262186",
+          "div": {}
+        }
+      ]
+    },
+    "scene_1760200235588": {
+      "title": "Frontend Room",
+      "panorama": "/devroom1.jpg",
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": -3.100656488790913,
+          "yaw": -23.57228144873568,
+          "type": "scene",
+          "text": "Balcony",
+          "sceneId": "scene_1760202303370",
+          "div": {}
+        },
+        {
+          "pitch": -3.848141840995987,
+          "yaw": -36.34286098036466,
+          "type": "scene",
+          "text": "Bathroom",
+          "sceneId": "scene_1760202288794",
+          "div": {}
+        },
+        {
+          "pitch": -0.7130213145264069,
+          "yaw": -99.3839765929007,
+          "type": "scene",
+          "text": "Lobby",
+          "sceneId": "lobby",
+          "div": {}
+        }
+      ]
+    },
+    "scene_1760200522024": {
+      "title": "Corner Room",
+      "panorama": "/cornerroom.jpg",
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": -1.228853707398081,
+          "yaw": -4.644721621241503,
+          "type": "scene",
+          "text": "Lobby",
+          "sceneId": "lobby",
+          "div": {}
+        }
+      ]
+    },
+    "scene_1760202158194": {
+      "title": "Backend Room",
+      "panorama": "/devroom2.jpg",
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": -2.832218740291161,
+          "yaw": -38.96118144397798,
+          "type": "scene",
+          "text": "Lobby",
+          "sceneId": "lobby",
+          "div": {}
+        }
+      ]
+    },
+    "scene_1760202191626": {
+      "title": "Kitchen",
+      "panorama": "/kitchen.jpg",
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": -3.285809140394596,
+          "yaw": -79.24707843207102,
+          "type": "scene",
+          "text": "Lobby",
+          "sceneId": "lobby",
+          "div": {}
+        }
+      ]
+    },
+    "scene_1760202262186": {
+      "title": "Bathroom",
+      "panorama": "/commonbathroom.jpg",
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": -2.3290660995585695,
+          "yaw": -60.75633299718595,
+          "type": "scene",
+          "text": "Lobby",
+          "sceneId": "lobby",
+          "div": {}
+        }
+      ]
+    },
+    "scene_1760202288794": {
+      "title": "Bathroom",
+      "panorama": "/bathroom.jpg",
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": -0.7867706083784292,
+          "yaw": 28.82581941561284,
+          "type": "scene",
+          "text": "Frontend Room",
+          "sceneId": "scene_1760200235588",
+          "div": {}
+        }
+      ]
+    },
+    "scene_1760202303370": {
+      "title": "Balcony",
+      "panorama": "/balcony.jpg",
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": -2.6286361326623826,
+          "yaw": 29.89166455624718,
+          "type": "scene",
+          "text": "Frontend Room",
+          "sceneId": "scene_1760200235588",
+          "div": {}
+        }
+      ]
+    }
+  }
+}
