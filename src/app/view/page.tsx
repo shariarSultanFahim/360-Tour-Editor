@@ -5,8 +5,7 @@ import TourViewer from "./components/viewer";
 
 export default function ViewPage() {
   const [tourConfig, setTourConfig] = React.useState<any>(null);
-  // In a real application, you would fetch this config from a database.
-  // This function fetches the current tour configuration from the server.
+
   async function getTourConfig() {
     try {
       const response = await fetch("/api/tour"); // Sends a GET request
@@ -21,15 +20,13 @@ export default function ViewPage() {
     }
   }
 
-  // Example usage:
-  // Load server tour config on mount and replace default state when available
   useEffect(() => {
     let mounted = true;
-    getTourConfig().then((cfg) => {
-      if (mounted && cfg) {
+    getTourConfig().then((config) => {
+      if (mounted && config) {
         try {
           // If the API returns an object, use it as the tourConfig
-          setTourConfig(cfg as any);
+          setTourConfig(config as any);
         } catch (e) {
           console.error("Failed to set tour config:", e);
         }

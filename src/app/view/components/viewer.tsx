@@ -35,6 +35,7 @@ export default function TourViewer({ config }: { config: any }) {
       viewer = pannellum.viewer(viewerContainerRef.current, {
         ...config,
         autoLoad: true,
+        autoRotate: -2,
       });
     }
     return () => {

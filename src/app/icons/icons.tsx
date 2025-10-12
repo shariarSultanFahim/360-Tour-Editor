@@ -19,54 +19,135 @@ export const ICONS = {
   ADD: (
     <Icon
       path={
-        <path d="M12 4.5a.75.75 0 0 1 .75.75v6h6a.75.75 0 0 1 0 1.5h-6v6a.75.75 0 0 1-1.5 0v-6h-6a.75.75 0 0 1 0-1.5h6v-6A.75.75 0 0 1 12 4.5Z" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="lucide lucide-badge-plus-icon lucide-badge-plus"
+        >
+          <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+          <line x1="12" x2="12" y1="8" y2="16" />
+          <line x1="8" x2="16" y1="12" y2="12" />
+        </svg>
       }
     />
   ),
   EDIT: (
     <Icon
       path={
-        <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="lucide lucide-settings2-icon lucide-settings-2"
+        >
+          <path d="M14 17H5" />
+          <path d="M19 7h-9" />
+          <circle cx="17" cy="17" r="3" />
+          <circle cx="7" cy="7" r="3" />
+        </svg>
       }
     />
   ),
   VIEW: (
     <Icon
       path={
-        <path
-          fillRule="evenodd"
-          d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z"
-          clipRule="evenodd"
-        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="lucide lucide-view-icon lucide-view"
+        >
+          <path d="M21 17v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2" />
+          <path d="M21 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2" />
+          <circle cx="12" cy="12" r="1" />
+          <path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0" />
+        </svg>
       }
     />
   ),
   TRASH: (
     <Icon
       path={
-        <path
-          fillRule="evenodd"
-          d="M16.5 4.478v.227a48.816 48.816 0 0 1 3.878.512.75.75 0 1 1-.256 1.478l-.209-.035-1.005 13.006a.75.75 0 0 1-.749.657H3.126a.75.75 0 0 1-.749-.657L1.33 6.63A.75.75 0 0 1 2.077 6l.209.035a48.816 48.816 0 0 1 3.878-.512V4.478c0-1.841 1.492-3.328 3.328-3.328h2.534c1.836 0 3.328 1.487 3.328 3.328ZM10.5 6h3V4.478c0-.851-.698-1.542-1.542-1.542h-.916c-.844 0-1.542.691-1.542 1.542V6Z"
-          clipRule="evenodd"
-        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="lucide lucide-trash2-icon lucide-trash-2"
+        >
+          <path d="M10 11v6" />
+          <path d="M14 11v6" />
+          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
+          <path d="M3 6h18" />
+          <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+        </svg>
       }
     />
   ),
   LOCATION: (
     <Icon
       path={
-        <path
-          fillRule="evenodd"
-          d="M9.69 18.933l.003.001C9.89 19.22 10 19.605 10 20s-.11.78-.307 1.066l-.003.001a1.5 1.5 0 0 1-2.384 0l-.002-.001A1.5 1.5 0 0 1 7 20s.11-.78.307-1.066l.002-.001a1.5 1.5 0 0 1 2.384 0ZM11.34 12.033a1.5 1.5 0 0 1 2.384 0l.002.001a1.5 1.5 0 0 1 .307 1.066s-.11.78-.307 1.066l-.002.001a1.5 1.5 0 0 1-2.384 0l-.003-.001a1.5 1.5 0 0 1-.307-1.066s.11-.78.307-1.066l.003-.001ZM14.34 15.033a1.5 1.5 0 0 1 2.384 0l.002.001a1.5 1.5 0 0 1 .307 1.066s-.11.78-.307 1.066l-.002.001a1.5 1.5 0 0 1-2.384 0l-.003-.001a1.5 1.5 0 0 1-.307-1.066s.11-.78.307-1.066l.003-.001Z"
-          clipRule="evenodd"
-        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="lucide lucide-map-pin-icon lucide-map-pin"
+        >
+          <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
       }
     />
   ),
   CLOSE: (
     <Icon
       path={
-        <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L10.94 12l-5.72 5.72a.75.75 0 1 0 1.06 1.06L12 13.06l5.72 5.72a.75.75 0 1 0 1.06-1.06L13.06 12l5.72-5.72a.75.75 0 0 0-1.06-1.06L12 10.94 6.28 5.22Z" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="lucide lucide-circle-x-icon lucide-circle-x"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <path d="m15 9-6 6" />
+          <path d="m9 9 6 6" />
+        </svg>
       }
     />
   ),

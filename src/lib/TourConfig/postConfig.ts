@@ -1,5 +1,5 @@
 // This function sends the updated tour configuration to the server to be saved.
-export async function saveTourConfig(newConfig) {
+export async function saveTourConfig(newConfig: any) {
   try {
     const response = await fetch("/api/tour", {
       method: "POST", // Specifies the request method
