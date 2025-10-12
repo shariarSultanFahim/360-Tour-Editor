@@ -1,1 +1,1 @@
-https://360virtualtoureditor.netlify.app/edit
+https://360virtualtoureditor.netlify.app
