@@ -110,7 +110,6 @@
       ]
     },
     "scene_1760202158194": {
-      "title": "Backend Room",
       "panorama": "/devroom2.jpg",
       "type": "equirectangular",
       "hotSpots": [
