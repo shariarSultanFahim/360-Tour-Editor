@@ -86,3 +86,25 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#controls {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 3px;
+  pointer-events: none;
+}
+.ctrl {
+  padding: 8px 5px;
+  width: 30px;
+  text-align: center;
+  background: rgba(200, 200, 200, 0.8);
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.ctrl:hover {
+  background: rgba(200, 200, 200, 1);
+}

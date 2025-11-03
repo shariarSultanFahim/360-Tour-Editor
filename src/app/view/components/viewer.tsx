@@ -1,7 +1,7 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
 export default function TourViewer({ config }: { config: any }) {
   const viewerContainerRef = useRef<HTMLDivElement>(null);
@@ -29,13 +29,12 @@ export default function TourViewer({ config }: { config: any }) {
     }
   }, []);
 
+  let viewer: any;
   useEffect(() => {
-    let viewer: any;
+    // let viewer: any;
     if (viewerContainerRef.current && pannellum) {
       viewer = pannellum.viewer(viewerContainerRef.current, {
         ...config,
-        autoLoad: true,
-        autoRotate: -2,
       });
     }
     return () => {
@@ -52,6 +51,27 @@ export default function TourViewer({ config }: { config: any }) {
         <Button asChild variant="secondary">
           <Link href="/">Back to Home</Link>
         </Button>
+      </div>
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10 space-x-2">
+        <Button onClick={() => viewer?.setPitch(viewer?.getPitch() + 10)}>
+          UP
+        </Button>
+        <Button onClick={() => viewer?.setPitch(viewer?.getPitch() - 10)}>
+          Down
+        </Button>
+        <Button onClick={() => viewer?.setYaw(viewer?.getYaw() + 10)}>
+          Right
+        </Button>
+        <Button onClick={() => viewer?.setYaw(viewer?.getYaw() - 10)}>
+          Left
+        </Button>
+        <Button onClick={() => viewer?.setHfov(viewer?.getHfov() - 10)}>
+          Zoom In
+        </Button>
+        <Button onClick={() => viewer?.setHfov(viewer?.getHfov() + 10)}>
+          Zoom Out
+        </Button>
+        <Button onClick={() => viewer?.toggleFullscreen()}>Fullscreen</Button>
       </div>
     </main>
   );

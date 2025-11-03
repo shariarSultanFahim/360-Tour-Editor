@@ -1,11 +1,13 @@
 {
   "default": {
     "firstScene": "lobby",
-    "sceneFadeDuration": 1000
+    "sceneFadeDuration": 1000,
+    "autoLoad": true,
+    "showControls": false,
+    "autoRotate": -2
   },
   "scenes": {
     "lobby": {
-      "title": "Lobby Room",
       "hfov": 110,
       "pitch": -3,
       "yaw": 117,
@@ -64,7 +66,6 @@
       ]
     },
     "scene_1760200235588": {
-      "title": "Frontend Room",
       "panorama": "/devroom1.jpg",
       "type": "equirectangular",
       "hotSpots": [
@@ -95,7 +96,6 @@
       ]
     },
     "scene_1760200522024": {
-      "title": "Corner Room",
       "panorama": "/cornerroom.jpg",
       "type": "equirectangular",
       "hotSpots": [
@@ -124,7 +124,6 @@
       ]
     },
     "scene_1760202191626": {
-      "title": "Kitchen",
       "panorama": "/kitchen.jpg",
       "type": "equirectangular",
       "hotSpots": [
@@ -139,7 +138,6 @@
       ]
     },
     "scene_1760202262186": {
-      "title": "Bathroom",
       "panorama": "/commonbathroom.jpg",
       "type": "equirectangular",
       "hotSpots": [
@@ -154,7 +152,6 @@
       ]
     },
     "scene_1760202288794": {
-      "title": "Bathroom",
       "panorama": "/bathroom.jpg",
       "type": "equirectangular",
       "hotSpots": [
@@ -169,7 +166,6 @@
       ]
     },
     "scene_1760202303370": {
-      "title": "Balcony",
       "panorama": "/balcony.jpg",
       "type": "equirectangular",
       "hotSpots": [
