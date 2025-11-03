@@ -1,7 +1,6 @@
 {
   "default": {
     "firstScene": "lobby",
-    "author": "Fahim",
     "sceneFadeDuration": 1000
   },
   "scenes": {
@@ -19,7 +18,16 @@
           "type": "scene",
           "text": "CEO Room",
           "sceneId": "scene_1760200522024",
-          "div": {}
+          "div": {},
+          "cssClass": "custom-hotspot-icon"
+        },
+        {
+          "pitch": 1.23105088510458135,
+          "yaw": 135.97631800023254,
+          "type": "info",
+          "text": "This is the lobby area where visitors are welcomed. It features comfortable seating and a reception desk.",
+          "URL": "https://definedsolution.com",
+          "cssClass": "custom-info-hotspot-icon"
         },
         {
           "pitch": 0.4965114855632835,
